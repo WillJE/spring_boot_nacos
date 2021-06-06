@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nacosconfig
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+server:
+  port: 8001
