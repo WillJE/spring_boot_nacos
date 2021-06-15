@@ -1,0 +1,14 @@
+server:
+  port: 8088
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: sidecar-simple
+# 配置异构服务
+sidecar:
+  ip: localhost
+  port: 8081
+  health-check-url: http://localhost:8081/health

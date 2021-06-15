@@ -10,6 +10,8 @@
         <module>nacosprovider</module>
         <module>nacosconsumer</module>
         <module>nacosconfig</module>
+        <module>simple-web</module>
+        <module>side_car</module>
     </modules>
     <dependencies>
         <dependency>
